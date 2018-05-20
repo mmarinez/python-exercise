@@ -1,10 +1,4 @@
-cars = ['toyota', 'volvo', 'nissan']
+def make_tshirt(tshirt_size, tshirt_message):
+    print("Your tshirt size is: " + tshirt_size + "\n" + "Your tshirt message is: " + tshirt_message)
 
-for car_name in cars:
-    increment = 0
-    print(car_name + " greetings")
-    increment += 1
-
-cars.insert(0, 'mitsubishi')
-
-print(cars)
+make_tshirt("Medium", "my python tshirt")
